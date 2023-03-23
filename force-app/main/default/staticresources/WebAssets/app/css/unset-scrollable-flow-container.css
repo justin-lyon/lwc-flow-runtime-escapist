@@ -1,0 +1,8 @@
+/* Flow Screen loads as a scrollable container in a Console Tab */
+flowruntime-lwc-body:has(c-flow-runtime-escapist) {
+  overflow-y: unset !important;
+}
+
+div.slds-card__body.slds-p-horizontal_small.flowruntimeBody:has(c-flow-runtime-escapist) {
+  overflow-y: unset !important;
+}

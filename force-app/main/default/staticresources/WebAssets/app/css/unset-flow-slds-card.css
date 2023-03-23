@@ -1,0 +1,23 @@
+/*
+Flow Screens wrap all embedded content in an slds card and card body.
+These overrides will remove the white background and extra padding/margin.
+ */
+div.slds-card.lbpmFlowRuntimeForRecordAction:has(c-flow-runtime-escapist) {
+  background: unset !important;
+  border: unset !important;
+  padding: unset !important;
+}
+
+flowruntime-flow:has(c-flow-runtime-escapist) {
+  background-color: unset !important;
+}
+
+div.flowruntimeBody.flowruntimeBody__lwc.slds-card__body.slds-p-horizontal_small:has(c-flow-runtime-escapist) {
+  padding: unset !important;
+  margin: unset !important;
+}
+
+div.slds-card__body.slds-p-horizontal_small.flowruntimeBody:has(c-flow-runtime-escapist) {
+  padding: unset !important;
+  margin: unset !important;
+}
