@@ -4,7 +4,16 @@ Simply add this LWC to your `lightning__FlowScreen` LWC and it will eliminate th
 
 This is specifically for Flow Screens opened in Console Applications. Flow Screens opened in another context, such as a Standard Application should not use this component.
 
+## Usage
+
+```html
+<template>
+  <c-flow-runtime-escapist></c-flow-runtime-escapist>
+</template>
+```
+
 ---
+
 Before using Flow Runtime Escapist
 
 ![before](images/before.png)
